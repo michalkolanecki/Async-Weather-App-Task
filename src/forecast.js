@@ -1,7 +1,7 @@
 const key = 'LBzjvxs9k0p7AytB7gNItXTNyGuTuXt9';
 
 const getWeatherInfo = async (id) => {
-    const base = 'http://dataservice.accuweather.com/locations/v1/';
+    const base = 'http://dataservice.accuweather.com/currentconditions/v1/';
     const query = `${id}?apikey=${key}`;
 
     const response = await fetch(base + query);
@@ -22,7 +22,7 @@ const getCity = async (city) => {
 
 getCity('warszawa')
     .then(data => {
-        return getWeatherInfo(data.Key)
+        return getWeatherInfo(data.Key);
     })
     .then(data => {
         console.log(data);
