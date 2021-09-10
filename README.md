@@ -16,10 +16,10 @@
 Use could use application download **zip-file** from my repository or simply **clone** from GitHub page.
 
 ### First look before you write in label your city.
-![cover](./readme-img/before-add-location.png)
+![cover](./img/readme-img/before-add-location.png)
 
 ### After wrote your location.
-![cover](./readme-img/add-location.png)
+![cover](./img/readme-img/add-location.png)
 
 ### There you see weather details, image and icon about your city.
-![cover](./readme-img/result-weather-location.png)
+![cover](./img/readme-img/result-weather-location.png)
