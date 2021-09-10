@@ -24,7 +24,4 @@ getCity('warszawa')
     .then(data => {
         return getWeatherInfo(data.Key);
     })
-    .then(data => {
-        console.log(data);
-    })
     .catch(err => console.log(err));
