@@ -1,4 +1,4 @@
-# Simple application which show you a weahter in place where you want to know.
+# Simple application which show you a weahter in place where you want to check.
 
 ### You have to write your favorite location in label and press enter.
 
